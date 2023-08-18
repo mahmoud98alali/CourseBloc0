@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'Section_one/UI/home_page.dart';
-import 'Section_one/bloc/counter_bloc.dart';
+import 'UI/home_page.dart';
+import 'bloc/counter_bloc.dart';
 
 void main() {
   runApp(MyAppBloc());
