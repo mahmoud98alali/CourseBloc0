@@ -4,6 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
+import '../video_p.dart';
 import 'UI/home_changeLAn.dart';
 import 'cubit/change_lan_cubit.dart';
 
@@ -26,7 +27,7 @@ class ChangeLanApp extends StatelessWidget {
             title: 'Localizations Sample App',
             debugShowCheckedModeBanner: false,
             locale: state.locale,
-            home: HomePageChangeLan(),
+            home: PlayVideoFromYoutube(),
             localizationsDelegates: [
               AppLocalizations.delegate,
               GlobalMaterialLocalizations.delegate,
